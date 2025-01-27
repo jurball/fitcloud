@@ -1,0 +1,28 @@
+.tables {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tables__store {
+
+}
+
+.tables__order {
+
+}
+
+.ids {
+    width: 70px;
+}
+textarea {
+    width: 1200px;
+    max-width: 1200px;
+    min-width: 1200px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+    .tables {
+        flex-direction: column;
+    }
+}
