@@ -16,26 +16,22 @@
    git clone https://github.com/jurbal/fitcloud
 ```
 
-### 1 способ
+### Запуск и подключения mysql
 
-Распаковать архив **other.zip** > папка **Схема(документация)** > **Руководство.docx** > читать руководство
-
-### 2 способ
-
-1. ```bash
-   git clone https://github.com/jurbal/fitcloud
-   ```
-
-2. Папка **api** > api.php edit
+1. Папка **api** > api.php edit
     ```php
     $servername = 'localhost:3310'; // Конфиг
     $username = 'root'; $password = '1234';
     ```
    
-3. Запуск PHP Cli
+2. Запуск PHP Cli
    ```php
    php -S localhost:8000
    ```
+
+### Руководство
+
+Распаковать архив **other.zip** > папка **Схема(документация)** > **Руководство.docx** > читать руководство
 
 ## Авторы
 
